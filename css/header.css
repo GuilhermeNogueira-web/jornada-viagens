@@ -17,6 +17,11 @@ header {
 .navegation-menu{
     margin-top: 24px;
 }
+
+input[type="chekbox"]:checked ~ nav{
+    display: block;
+}
+
 nav {
     display: none;
 }
