@@ -51,13 +51,14 @@ li {
 .list-links {
     list-style: none;
     text-decoration: none;
-
-}
-
-.list-links a {
     color: var(--text-secondary-color);
-    
 }
+
+.list-links li a {
+    color: var(--text-secondary-color);
+    text-decoration: none;
+}
+
 
 .list-links li {
     margin: 16px 0;
@@ -65,4 +66,8 @@ li {
 
 label[for="menu"] {
     cursor: pointer;
+}
+
+body {
+    font-family: "Montserrat";
 }
